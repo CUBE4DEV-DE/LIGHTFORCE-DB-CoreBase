@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{b3d542eb-669b-4df1-b02e-c136c8145f08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Debug">
+      <UniqueIdentifier>{73ed77ff-35af-49ea-a7ea-54ee6760dc6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test">
+      <UniqueIdentifier>{d304da14-6053-4cef-b9f9-57ba372d0586}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Document">
+      <UniqueIdentifier>{7717cc63-eb33-433c-abf2-719a9ccd3bf0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entity">
+      <UniqueIdentifier>{c7b2e455-2838-4e66-823f-b5abe12fa08a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Linq">
+      <UniqueIdentifier>{590ba0e7-e13e-4951-9c7a-3b1c607a4cdf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inject">
+      <UniqueIdentifier>{e05a0ecf-2f3a-4e1a-a5c2-8563ac6650ca}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CoreBaseGlobal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClCompile Include="CoreBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClInclude Include="XObjectDocument.h">
+      <Filter>Document</Filter>
+    </ClInclude>
+    <ClInclude Include="XObjectList.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="XObjectManager.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="XDebug.h">
+      <Filter>Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="XLinq.h">
+      <Filter>Linq</Filter>
+    </ClInclude>
+    <ClInclude Include="XFilter.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="XObjectFiles.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="XObjectInject.h">
+      <Filter>Inject</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="XObjectDocument.cpp">
+      <Filter>Document</Filter>
+    </ClCompile>
+    <ClCompile Include="XObject.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="XObjectFactory.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="XObjectManager.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="XTranslate.cpp">
+      <Filter>Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="XUser.cpp">
+      <Filter>Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="XSystem.cpp">
+      <Filter>Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="XDebug.cpp">
+      <Filter>Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="XEntity.cpp">
+      <Filter>Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="XTest.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="XObjectCore.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="XObjectFiles.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="XObjectInject.cpp">
+      <Filter>Inject</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="XObject.h">
+      <Filter>Object</Filter>
+    </QtMoc>
+    <QtMoc Include="XObjectFactory.h">
+      <Filter>Object</Filter>
+    </QtMoc>
+    <QtMoc Include="XUser.h">
+      <Filter>Entity</Filter>
+    </QtMoc>
+    <QtMoc Include="XTranslate.h">
+      <Filter>Entity</Filter>
+    </QtMoc>
+    <QtMoc Include="XSystem.h">
+      <Filter>Entity</Filter>
+    </QtMoc>
+    <QtMoc Include="XEntity.h">
+      <Filter>Entity</Filter>
+    </QtMoc>
+    <QtMoc Include="XTest.h">
+      <Filter>Test</Filter>
+    </QtMoc>
+    <QtMoc Include="XObjectCore.h">
+      <Filter>Object</Filter>
+    </QtMoc>
+  </ItemGroup>
+</Project>
