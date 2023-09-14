@@ -60,6 +60,13 @@ namespace CoreBase {
     // Context: DefaultNamespace
     // Class:   XLinq
     // Method:  XLinq
+    // Description: The XLinq class is part of the C++ library "boolinq" and
+    // is used to create queryable collections of objects. It provides a
+    // range of methods that allow for filtering, grouping, and aggregation
+    // operations to be performed on data. These methods return new XLinq
+    // objects with the appropriate transformations applied. The use of
+    // lambda functions provides the flexibility to apply custom
+    // functions to the data.
     //----------------------------------------------------------------------------- 
     
     template<typename S, typename T>

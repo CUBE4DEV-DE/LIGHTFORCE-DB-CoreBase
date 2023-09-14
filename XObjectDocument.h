@@ -14,6 +14,17 @@ namespace CoreBase
 	// Context: DefaultNamespace
 	// Class:   XObjectDocument
 	// Method:  XObjectDocument
+	// Description:  The purpose of the XObjectDocument class is to provide
+	//  functionality to open, save and read JSON data from a file. It has
+	//  methods open() and save() that are used to read data from a file and
+	//  save data respectively. Additionally, it has two helper methods that
+	//  are used to parse JSON data: readArray() and readObjectArray().
+	//  Furthermore, the XObjectDocument class serves as a data storage
+	//  container with the help of its attribute variables m_Path, m_Filename
+	//  and m_Content. These attributes store the location and actual content
+	//  of the file being processed. The class also has a protected read
+	//  and write methods that can be used to perform read and write
+	//  operations on the file.
 	//----------------------------------------------------------------------------- 
 	
 	class XObjectDocument

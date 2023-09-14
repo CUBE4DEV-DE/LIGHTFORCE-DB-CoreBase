@@ -1,4 +1,3 @@
-
 COREBASE
 ========
 
@@ -12,3 +11,70 @@ retrieval and management. XObjectManager helps to create instances of the XObjec
 so that developers can easily manipulate and work with their data objects.
 To summarize, CoreBase, XObject, and XObjectManager play different but important roles
 as part of the overall LIGHTFORCE DB system, specifically in the area of data storage and management.
+
+
+XObjectManager
+--------------
+The XObjectManager class is responsible for managing the
+construction and destruction of XObject instances by generating new
+objects of a specific class name, finding objects with a particular
+identifier, casting to a template, and deleting objects based on either
+UUID or object. It also provides a set of functions for locking and
+unlocking the object for concurrent program access. Furthermore,
+XObjectManager has additional functionality for caching and managing
+super objects to which these XObjects are parented.
+
+XObject
+-------
+This class provides a foundation for managing
+other objects and their data in the system.
+
+XObjectCore
+-----------
+XObjectCore is a class that provides core functionality for the
+object model in a QObject / JSON hybrid programming paradigm.It
+includes various types of functions that handle maps, JSON documents,
+and objects.    
+
+XObjectList
+-----------
+The XObjectList class is a templated class that defines a
+list of child objects of type T which inherits from XObject. This class
+is responsible for creating, deleting, and storing child objects.
+
+XObjectFactory
+--------------
+The XObjectFactory class has several static methods,
+including registerClassObject and newObject, which allow
+developers to register new objects and create instances of them.
+
+XObjectFiles
+------------
+This class is outdated and replaced by XFile from CoreStorage
+
+XObjectFiles is a class that provides methods for reading
+and writing files and caching their contents to improve performance.
+It also provides methods for creating and using shortcuts to quickly
+access frequently used files. The class is part of the CoreBase
+namespace and can be used in C++ projects.
+
+XLinq
+-----
+The XLinq class is part of the C++ library "boolinq" and is used 
+to create queryable collections of objects. It provides a range 
+of methods that allow for filtering, grouping, and aggregation
+operations to be performed on data. These methods return new XLinq
+objects with the appropriate transformations applied. The use of
+lambda functions provides the flexibility to apply custom functions
+to the data.
+
+XObjectInject
+-------------
+In short, the XObjectInject class is a useful tool for object injection
+during an application's runtime, allowing for the dynamic binding and
+detachment of functions to and from objects.
+
+XObjectDocument
+---------------
+The purpose of the XObjectDocument class is to provide
+functionality to open, save and read JSON data from a file.
