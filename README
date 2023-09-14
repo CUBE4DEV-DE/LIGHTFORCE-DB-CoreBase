@@ -1,0 +1,14 @@
+
+CORESTORAGE
+====================================================================================================
+
+CoreBase is the core module of LIGHTFORCE DB. XObject is a class that handles data persistently 
+as both a C++ object and a JSON object. XObjectManager serves as an object factory that creates
+and manages instances of the XObject class.
+
+In other words, CoreBase is an essential module in the LIGHTFORCE DB system, which manages databases.
+XObject is a flexible class that can handle data for efficient storage,
+retrieval and management. XObjectManager helps to create instances of the XObject class,
+so that developers can easily manipulate and work with their data objects.
+To summarize, CoreBase, XObject, and XObjectManager play different but important roles
+as part of the overall LIGHTFORCE DB system, specifically in the area of data storage and management.
