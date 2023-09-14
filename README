@@ -1,6 +1,6 @@
 
-CORESTORAGE
-====================================================================================================
+COREBASE
+========
 
 CoreBase is the core module of LIGHTFORCE DB. XObject is a class that handles data persistently 
 as both a C++ object and a JSON object. XObjectManager serves as an object factory that creates
