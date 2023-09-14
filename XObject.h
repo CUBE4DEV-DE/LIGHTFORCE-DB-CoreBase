@@ -12,6 +12,13 @@ namespace CoreBase
     // Context: DefaultNamespace
     // Class:   XObject
     // Method:  XObject
+    // Description: The XObject class is from the CoreBase-namespace and is part of
+    //  the XObjectManager. This class has multiple constructors that take various
+    //  types of input, allowing it to be initialized in multiple ways. It also has
+    //  methods for initialization and setting table structures that are used in object
+    //  management. In addition, it has methods for checking if a specified slot
+    //  exists and calling the slot. This class provides a foundation for managing
+    //  other objects and their data in the system.
     //----------------------------------------------------------------------------- 
 
     class COREBASE_EXPORT XObject:public XObjectCore

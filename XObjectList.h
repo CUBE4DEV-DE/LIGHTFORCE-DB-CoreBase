@@ -25,7 +25,14 @@ namespace CoreBase
 // Context: DefaultNamespace
 // Class:   XCoreObjectList
 // Method:  XObjectList
-//----------------------------------------------------------------------------- 
+// Description: The XObjectList class is a templated class that defines a
+//	list of child objects of type T which inherits from XObject. This class
+//	is responsible for creating, deleting, and storing child objects. It also
+//	provides the ability to find a specific child object based on its unique
+//	identifier. The XObjectList class provides various methods for managing
+//	and manipulating lists, such as adding and removing objects from the list.
+//-----------------------------------------------------------------------------
+
 template <class T> class XObjectList:public XObject
 {
 public:

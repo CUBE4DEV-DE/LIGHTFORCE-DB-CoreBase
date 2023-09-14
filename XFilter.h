@@ -13,6 +13,17 @@ namespace CoreBase
 // Context: DefaultNamespace
 // Class:   XFilter
 // Method:  XFilter
+// Description: The XFilter class is a templates class that is used to
+//	filter a list of QObject's or objects that inherit from QObject. The
+//	class provides a set of methods to sort and search this list of objects
+//	based on specific properties. When creating an instance of the XFilter
+//	class, a QList or XObjectList has to be provided in its constructor.
+//	This instance is then later used by the methods of the class to apply
+//	the different filters.
+//	The available methods include sort, which sorts the objects based on
+//	a specific property, search which returns a list of objects that match
+//	the provided search string, and filter which combines searching with a
+//	filter.
 //----------------------------------------------------------------------------- 
 template <class T>
 class XFilter

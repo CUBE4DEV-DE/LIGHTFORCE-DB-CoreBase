@@ -11,6 +11,11 @@ namespace CoreBase
     // Context: DefaultNamespace
     // Class:   XObject
     // Method:  XObject
+    // Description: XObjectFiles is a class that provides methods for reading
+    //  and writing files and caching their contents to improve performance.
+    //  It also provides methods for creating and using shortcuts to quickly
+    //  access frequently used files. The class is part of the CoreBase
+    //  namespace and can be used in C++ projects.
     //----------------------------------------------------------------------------- 
 
     class COREBASE_EXPORT XObjectFiles

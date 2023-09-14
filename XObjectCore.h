@@ -171,6 +171,16 @@ namespace CoreBase
     // Context: DefaultNamespace
     // Class:   XObject
     // Method:  XObject
+    // Description:
+    //  XObjectCore is a C++ class that provides core functionality for the
+    //  object model in a QObject / JSON hybrid programming paradigm.It
+    //  includes various types of functions that handle maps, JSON documents,
+    //  and objects.
+    //  Some of its specific functions include : parsing a JSON object into
+    //  a QMap<QString, QVariant>, cloning XObjects, setting and getting
+    //  integer, double, and other types of values, and much more.Overall,
+    //  it aims to streamline the creation of hybrid programming paradigms
+    //  by codifying a consistent and predictable model.
     //----------------------------------------------------------------------------- 
 
     class COREBASE_EXPORT XObjectCore :public QObject

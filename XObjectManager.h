@@ -14,6 +14,14 @@ namespace CoreBase
 // Context: DefaultNamespace
 // Class:   XObjectManager
 // Method:  XObjectManager
+// Descriptions: The XObjectManager class is responsible for managing the
+//	construction and destruction of XObject instances by generating new
+//	objects of a specific class name, finding objects with a particular
+//	identifier, casting to a template, and deleting objects based on either
+//	UUID or object. It also provides a set of functions for locking and
+//	unlocking the object for concurrent program access. Furthermore,
+//	XObjectManager has additional functionality for caching and managing
+//	super objects to which these XObjects are parented.
 //----------------------------------------------------------------------------- 
 class COREBASE_EXPORT XObjectManager //: public QObject
 {
